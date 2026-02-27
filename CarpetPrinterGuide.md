@@ -2,7 +2,7 @@
 
 *This guide is made strictly for the Carpet Printer module, it may or may not apply to other modules in Nerv Printer.*
 
-*Testing was concluded on 9b9t, not checked on other servers.*
+*Testing was concluded on 9b9t with the 1.21.11 release of Nerv Printer, not checked on other servers and roughly checked on older versions.*
 
 Comprehensive guide to Nerv Printer and the use of Multi-User + handling multiple maps, written by Emi.
 
