@@ -56,30 +56,51 @@ For the basics, follow [this](https://github.com/Julflips/nerv-printer-addon/blo
 ### Explanation of The Main Settings
 
 **Lines Per Run** defines how many lines the printer places down per run (from top to bottom of the map), values lower than 3 will result in a more stable, but slower result, values higher than 3 will result in a faster, but less reliable result, more errors may occur when using high values.
+
 **Place Range** is pretty self explanatory, it means how far the printer can place carpets, higher values could lead to a faster result but very slightly. 
+
 **Min Place Distance** defines how close the printer can place a carpet, measured in blocks.
+
 **Ignored Blocks** simply means what blocks to ignore in the .nbt file.
+
 **Place Delay** states how many ticks to wait before placing the carpets.
+
 **Start Block** specifies which blocks are used as "starting blocks" to tell the printer to start doing its job.
+
 **Map Fill Square Size** means how far the bot has to walk to fill the map in hand.
+
 **Sprint Mode** defines if/and/or when to sprint or not.
+
 **Activation Reset** determines if the bot should resume printing after a reconnect or not. Unticked = Yes, Ticked = No.
+
 **Rotate** tells the printer to rotate your camera to comply with the Anti-Cheat.
 
 Advanced Tab
 
 **Pre Restock Delay** defines how many ticks to wait before taking out the items out of the chest.
+
 **Inventory Action Delay** defines how many ticks to wait before moving stacks into inventory.
+
 **Post Restock Delay** defines how many ticks to wait after restocking.
+
 **Pre Swap Delay** defines how many ticks to wait before swapping to another item slot.
+
 **Post Swap Delay** defines how many ticks to wait after swapping to another item slot.
+
 **Reset Chest Close Delay** defines how many ticks to wait before closing the Reset Chest.
+
 **Retry Interact Timer** defines how many ticks to wait before interacting with a chest again.
+
 **Pos Reset Timeout** defines how many ticks to wait before moving the player, if the server changes the players position.
+
 **Checkpoint Buffer** defines the buffer area of checkpoints, lesser values meaning a more precise path, higher values meaning a less precise path (to checkpoints).
+
 **Break Carpet Above Reset** (undefined).
+
 **Move To Finished Folder** defines if the .nbt file should be moved to the "finished" folder inside the nerv-printer folder.
+
 **Disable On Finished** defines if the module should auto-disable after finishing all maps.
+
 **Debug Prints** debugs printing.
 
 Multi User occluded, see Multi-User + Handling Multiple Maps.
@@ -87,6 +108,7 @@ Multi User occluded, see Multi-User + Handling Multiple Maps.
 Error Handling
 
 **Log Errors** logs errors in chat.
+
 **Error Action** defines what the bot should do about errors.
 
 Render occluded.
@@ -105,7 +127,9 @@ Connecting the accounts to each other is very strict, these are the settings NEE
 - **Sender Suffix** = `: ` (space is required)
 - **Chat Message Delay** = 50
 - **Random Suffix Length** = 0
+
 Handling multiple maps is also extremely strict, make sure you have these settings set, and the profile in Meteor saved.
+
 - **Activation Reset** = Unchecked
 - **Custom Folder Path** = Checked
 - **Nerv Printer Folder Path** = see **Folder Path**
