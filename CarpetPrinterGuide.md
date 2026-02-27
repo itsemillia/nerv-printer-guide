@@ -24,7 +24,7 @@ For the basics, follow [this](https://github.com/Julflips/nerv-printer-addon/blo
 - **Rotate** = Unchecked
 - **Custom Folder Path** = Checked
 - **Nerv Printer Folder Path** = Occluded, see Multi-User + Handling Multiple Maps
-##### Advanced Tab
+#### Advanced Tab
 - **Pre Restock Delay** = 10
 - **Inventory Action Delay** = 2
 - **Post Restock Delay** = 10
@@ -38,12 +38,12 @@ For the basics, follow [this](https://github.com/Julflips/nerv-printer-addon/blo
 - **Move To Finished Folder** = Checked
 - **Disable On Finished** = Checked
 - **Debug Prints** = Unchecked
-##### Multi User (see Multi-User + Handling Multiple Maps)
+#### Multi User (see Multi-User + Handling Multiple Maps)
 
-##### Error Handling
+#### Error Handling
 - **Log Errors** = Checked
 - **Error Action** = Repair
-##### Render
+#### Render
 **All Default Settings**
 
 ### Modules Outside of Nerv Printer
