@@ -146,6 +146,10 @@ The **Nerv Printer Folder Path** defines a custom path for the nerv-printer to p
 - After that is done, add the ***same*** folder path on the **Slave** accounts. 
 This will allow for multiple instances (Master and Slaves) to pull aforementioned files into memory and load them in-game.
 
+### In case you don't want to create a new folder, just copy the folder path of your main(master) instance nerv-printer folder inside .minecraft.
+
+### To copy the path, let's say of `NervPrinterFolder`, open the folder in your File Explorer, left click on the top bar, where it says `Disk (D:) > Games > NervPrinterFolder`, it should highlight the path, click CTRL + C to copy it.
+
 ---
 
 FAQ:
